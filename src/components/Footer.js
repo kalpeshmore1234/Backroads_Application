@@ -23,7 +23,6 @@ const Footer = () => {
             <li key={link.id}>
               <a
                 href={link.href}
-                target="_blank"
                 className="footer-icon"
               >
                 <i className={link.icon}></i>
